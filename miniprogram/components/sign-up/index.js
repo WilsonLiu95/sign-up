@@ -465,6 +465,7 @@ Component({
   lifetimes: {
     async attached() {
       try {
+        console.log('二开')
         this.setData({
           isAutoSign: this.properties.autoSign
         })
